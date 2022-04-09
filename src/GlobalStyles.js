@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 :root{
+    box-sizing:border-box;
     // colors
     --color-primary:#facf0f;
     --color-secondary:#212529;
@@ -10,12 +11,14 @@ const GlobalStyles = createGlobalStyle`
     //Typography
     font-size: 62.5%;
     font-family: 'Source Sans Pro', sans-serif;  
+
+    
 }
 
 
 @media(max-width:56.25em ){
 :root{
-    font-size: 56%;
+    font-size: 59%;
 }
 
 

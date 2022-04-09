@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { StyledHeader, LogoIcon, BurgerIconStyled } from './Navbar.styled';
+import { StyledHeader, BurgerIconStyled } from './Navbar.styled';
 import Logo from './Logo';
 import { Link } from 'react-scroll';
 import { MenuList } from './Navbar.styled';

@@ -25,6 +25,9 @@ export const StyledLogo = styled.div`
 display:flex;
 padding: 2rem 0 2rem 5rem;
 align-items:center;
+@media(max-width:28.375rem){
+padding-left:2rem;
+}
 `
 export const LogoIcon = styled.img`
 height:5rem;
@@ -32,6 +35,10 @@ width:5rem;
 clip-path: circle(50% at 50% 50%);
 cursor:pointer;
 margin-right:1.5rem;
+@media(max-width:28.375rem){
+   width:3rem;
+   height:3rem;
+}
 `
 export const LogoName = styled.h1`
  font-size: 1.8rem;
@@ -48,7 +55,7 @@ export const LogoName = styled.h1`
 `
 export const BurgerIconStyled = styled.div`
 dispay:none;
-@media(max-width:767px){
+@media(max-width:767.9px){
 width:4rem;
 height:4rem;
 margin-left:2rem;
@@ -57,6 +64,9 @@ display:flex;
 padding-right:6rem;
 flex-flow: column nowrap;
 justify-content:space-around;
+@media(max-width:28.375rem){
+    padding-right:3rem;
+}
 
 div{
 width:4rem;
@@ -77,6 +87,7 @@ transition: all 0.5s;
     transform:${({ status }) => status ? "rotate(-45deg)" : "rotate(0)"}
 }
 }
+
 }
 `
 
