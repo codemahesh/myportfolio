@@ -1,6 +1,6 @@
-import { CardImageContainer, StyledCards, CardContentContainer,StyledCardContainer} from './ProjectCard.styled';
+import { StyledCards,StyledCardContainer} from './ProjectCard.styled';
 import { SmallButton } from './Button';
-import React, {useState} from 'react';
+import React from 'react';
 import {Project} from '../../data/project'
 import 'react-toastify/dist/ReactToastify.css';
 
