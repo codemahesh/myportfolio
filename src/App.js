@@ -1,11 +1,11 @@
 
-import ContactSection from './components/ContactSection';
 import './App.css';
-import AboutmeSection from './components/AboutMeSection';
-import HeroPage from './components/Heropage';
-import Header from './components/NavBar';
-import ProjectSection from './components/ProjectSection';
 import GlobalStyles from './GlobalStyles';
+import Header from './components/NavBar';
+import HeroPage from './components/Heropage';
+import AboutmeSection from './components/AboutMeSection';
+import ProjectSection from './components/ProjectSection';
+import ContactSection from 'components/ContactSection';
 
 function App() {
   return (

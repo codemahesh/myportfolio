@@ -11,6 +11,7 @@ import emailjs from '@emailjs/browser';
             e.preventDefault();
             emailjs.sendForm('service_8g82xns', 'template_a79nk9e', form.current, 'cxaGbrw6VrXKGJqUo')
                 .then((result) => {
+                    form.current.reset();
                     toast.success('🦄 Wow so easy!', {
                         position: "top-center",
                         autoClose: 5000,

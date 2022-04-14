@@ -1,7 +1,7 @@
 import { createGlobalStyle, css } from "styled-components";
-
+import normalize from "normalize.css";
 const GlobalStyles = createGlobalStyle`
-
+${normalize}
 :root{
     // colors
     --color-primary:#facf0f;
@@ -11,10 +11,10 @@ const GlobalStyles = createGlobalStyle`
     //Typography
     font-size: 62.5%;
     font-family: 'Source Sans Pro', sans-serif;  
+    
 }
-
-*, *::after, *::before {
-  box-sizing: border-box;
+input{
+    line-height:1;
 }
 
 *, *::after, *::before {
