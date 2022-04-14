@@ -2,8 +2,8 @@ import React,{useRef} from 'react';
 import { SmallButton } from 'components/common/Button';
 import {toast,ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { ContactFormContainer } from 'components/ContactSection.styled'
-import emailjs from 'emailjs-com';
+import { ContactFormContainer } from 'components/ContactSection.styled';
+import emailjs from '@emailjs/browser';
     function ContactForm() {
         const form = useRef();
         
@@ -38,7 +38,7 @@ import emailjs from 'emailjs-com';
         return (
             <>
                 <ToastContainer />
-
+                
                 <ContactFormContainer >
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='form-group form-control-lg contactFormField'>

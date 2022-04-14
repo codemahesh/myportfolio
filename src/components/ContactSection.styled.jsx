@@ -62,4 +62,7 @@ box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
   display: block;
   text-align: left;
 }
+.contactFormInput{
+  box-sizing:border-box;
+}
 `

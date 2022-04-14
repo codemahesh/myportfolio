@@ -1,5 +1,5 @@
 
-import ContactSection from 'components/ContactSection';
+import ContactSection from './components/ContactSection';
 import './App.css';
 import AboutmeSection from './components/AboutMeSection';
 import HeroPage from './components/Heropage';

@@ -2,7 +2,7 @@ import React from 'react';
 import MainComponent from 'components/common/MainComponent';
 import {StyledContactSection } from 'components/ContactSection.styled';
 import SubHeading from 'components/common/SubHeading';
-import ContactForm from 'components/ContactSection';
+import ContactForm from 'components/';
 
 function ContactSection() {
   return (
