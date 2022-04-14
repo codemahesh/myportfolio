@@ -8,7 +8,7 @@ function SocialMedia() {
   return (
     <>
         <StyledSocialHome>
-        <SocialMediaIcons/>
+        <SocialMediaIcons color="#000"/>
         </StyledSocialHome>
     </>
   )

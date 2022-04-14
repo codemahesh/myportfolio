@@ -12,7 +12,7 @@ import emailjs from '@emailjs/browser';
             emailjs.sendForm('service_8g82xns', 'template_a79nk9e', form.current, 'cxaGbrw6VrXKGJqUo')
                 .then((result) => {
                     form.current.reset();
-                    toast.success('🦄 Wow so easy!', {
+                    toast.success('Form Sucessfully Submitted!', {
                         position: "top-center",
                         autoClose: 5000,
                         hideProgressBar: false,

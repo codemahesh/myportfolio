@@ -43,7 +43,7 @@ font-weight:700;
 .hero__description{
 font-size: 2rem;
 line-height:1.5;
-padding:2rem 15rem 3rem 15rem;
+padding:2rem 0rem 3rem 0rem;
 color:#333;
 width:100%;
 text-align:center;

@@ -8,6 +8,7 @@ export const StyledButton = styled.button`
     display: inline-block;
     font-weight: 700;
     outline:none;
+    cursor:pointer;
     border:0;
     border-radius: 5px;
     box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);

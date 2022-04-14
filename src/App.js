@@ -6,6 +6,7 @@ import HeroPage from './components/Heropage';
 import AboutmeSection from './components/AboutMeSection';
 import ProjectSection from './components/ProjectSection';
 import ContactSection from 'components/ContactSection';
+import FooterSection from 'components/FooterSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <AboutmeSection/>
      <ProjectSection/>
      <ContactSection/>
+     <FooterSection/>
    </div>
   );
 }
