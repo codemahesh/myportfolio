@@ -15,6 +15,9 @@ const GlobalStyles = createGlobalStyle`
     
 }
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
 
 @media(max-width:56.25em ){
 :root{
