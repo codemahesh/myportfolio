@@ -11,7 +11,7 @@ function HeroPage() {
       <SocialMedia />
     <MainComponent>
       <div className='hero__content'>
-        <h1 className='hero__title'>HEY, I'M MANOJ JOSHI</h1>
+        <h1 className='hero__title'>HEY, I'M MAHESH JOSHI</h1>
         <p className='hero__description'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
         <Link to={"project"} smooth={true} duration={100}><HeroButton className="btn btn-lg">Projects</HeroButton></Link>
       </div>
